@@ -80,3 +80,48 @@ a {
     color: white;
     text-decoration: none;
 }
+
+.mat-drawer-container{
+  background-color: #142c8e ;
+}
+
+.mat-form-field-appearance-legacy .mat-form-field-label, .mat-form-field-appearance-legacy .mat-hint{
+  color: #6c7378;
+  margin-left: 15px;
+}
+
+.mat-card h3{
+  color:#142c8e ;
+}
+
+.mat-stroked-button{
+  color:#142c8e ;
+}
+
+.mat-stroked-button:not(.mat-button-disabled){
+  border-color: #142c8e ;
+}
+
+.mat-card{
+  border: 1px solid #eaeced;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px 10% 50px;
+    max-width: 460px;
+}
+
+form{
+  padding: 0 30px;
+  margin-top: 25px;
+}
+.mat-form-field-infix{
+  border: 0.0625rem solid #9da3a6;
+}
+
+.mat-form-field-appearance-legacy .mat-form-field-wrapper{
+  padding-bottom:0 ;
+  margin-top: 10px;
+}
+
+

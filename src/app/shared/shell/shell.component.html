@@ -23,13 +23,13 @@
 
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
-      <span class="logo" routerLink="/">🔥 Hacking Web</span>
+      <span class="logo" routerLink="/"><img src="../../../assets/pp_fc_hl.svg" alt=""></span>
 
       <span class="fill-space"></span>
       <div *ngIf="!(isHandset$ | async)">
 
 
-        <a mat-button routerLink="/login" *ngIf="!(afAuth.authState | async)">🔑 Login</a>
+        <a mat-button routerLink="/login" *ngIf="!(afAuth.authState | async)">Login</a>
         <a mat-button routerLink="/login" *ngIf="afAuth.authState | async as user" >
           <img class="avatar" [src]="user.photoURL || 'assets/default-user.svg'">
           Profile

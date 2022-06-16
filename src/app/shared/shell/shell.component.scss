@@ -6,6 +6,11 @@
   font-size: 1.2em;
   cursor: pointer;
   outline: none;
+
+  img{
+    width: 136px;
+    height: 43px;
+  }
 }
 
 .mat-drawer-side {
@@ -17,7 +22,18 @@
   width: 200px;
   font-family: sofia-pro;
 }
-
+.mat-toolbar{
+  background-color: white;
+  height: 75px;
+  padding: 10px 48px;
+  a{
+    background-color: transparent;
+    color: #0070ba;
+    border: 1px solid #0070ba;
+    box-shadow: none;
+    border-radius: 25px;
+  }
+}
 .sidenav .mat-toolbar {
   background: inherit;
 }
