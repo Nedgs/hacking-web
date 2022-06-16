@@ -1,6 +1,6 @@
 # Hacking Web
 
-By Nader Gouasmi & Lewis 
+By Nader Gouasmi & Yvon Lewis Ghilbert BINGANGOYE 
 
 
 ## Features
@@ -17,7 +17,6 @@ By Nader Gouasmi & Lewis
 
 2.  Create a project at https://firebase.google.com/ and grab your web config:
 
-![](https://firebasestorage.googleapis.com/v0/b/firestarter-96e46.appspot.com/o/project-config.PNG?alt=media&token=5eabb205-7ba2-4fc3-905f-e9547055e754)
 
 3.  Add the config to your Angular environment
 
